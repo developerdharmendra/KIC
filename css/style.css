@@ -2387,8 +2387,8 @@ a:hover .link_underline {
 
 /**study destination css starts here**/
 .study-destination {
-  background-image: url('../images/study-destination.svg');
-  background-repeat: no-repeat;
+  /* background-image: url('../images/study-destination.svg'); */
+  /* background-repeat: no-repeat; */
   background-position: center;
   background-size: fit;
   z-index: 0;
@@ -6085,4 +6085,24 @@ a#send-it svg {
     }
 
 
-    
+      .counsellor-section .card {
+        transition: all 0.3s ease;
+        cursor: pointer;
+      }
+
+      .counsellor-section .card:hover {
+        transform: translateY(-10px);
+        /* box-shadow: 0 10px 25px rgba(0,0,0,0.15); */
+      }
+
+      .counsellor-section .card:hover .card-img-top {
+        transform: scale(1.05);
+      }
+
+      .counsellor-section .card-img-top {
+        transition: transform 0.3s ease;
+      }
+
+      .counsellor-section .card {
+        overflow: hidden;
+      }
