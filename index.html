@@ -1,0 +1,2273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KIEC Education</title>
+
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="stylesheet" href="css/sal.css" />
+    <!-- Meta Pixel Code -->
+    <script>
+      !(function (f, b, e, v, n, t, s) {
+        if (f.fbq) return;
+        n = f.fbq = function () {
+          n.callMethod
+            ? n.callMethod.apply(n, arguments)
+            : n.queue.push(arguments);
+        };
+        if (!f._fbq) f._fbq = n;
+        n.push = n;
+        n.loaded = !0;
+        n.version = "2.0";
+        n.queue = [];
+        t = b.createElement(e);
+        t.async = !0;
+        t.src = v;
+        s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s);
+      })(
+        window,
+        document,
+        "script",
+        "https://connect.facebook.net/en_US/fbevents.js"
+      );
+      fbq("init", "2507000996171529");
+      fbq("track", "PageView");
+    </script>
+    <noscript
+      ><img
+        height="1"
+        width="1"
+        style="display: none"
+        src="https://www.facebook.com/tr?id=2507000996171529&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+    <!-- End Facebook Pixel Code -->
+    <link rel="stylesheet" href="css/slick.min.css" />
+    <link rel="stylesheet" href="css/slick-theme.min.css" />
+
+    <link rel="stylesheet" href="css/boxicons.min.css" />
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="css/all.min.css" />
+
+    <link
+      href="css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/fancybox.css" />
+
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="css/toastr.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="container-fluid">
+        <nav class="navbar">
+          <section class="navbar__left">
+            <a href="index.html" data-no-blank="">
+              <img class="logo" src="images/logo.png" alt="Logo" />
+            </a>
+            <div class="burger" id="burger">
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+              <span class="burger-line"></span>
+            </div>
+          </section>
+
+          <section class="navbar__center">
+            <span class="overlay"></span>
+            <div class="menu" id="menu">
+              <div class="menu__header">
+                <span class="menu__arrow">
+                  <i class="bx bx-chevron-left"></i>
+                </span>
+                <span class="menu__title"></span>
+              </div>
+
+              <ul class="menu__inner">
+                <li
+                  class="menu__item menu-close d-flex justify-start align-items-center d-block d-sm-none"
+                >
+                  <a href="#" class="menu__link">
+                    <svg
+                      id="menu_dismiss"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                      >
+                        <path d="M5 12H19">
+                          <animate
+                            fill="freeze"
+                            attributeName="d"
+                            dur="0.4s"
+                            values="M5 12H19;M12 12H12"
+                          ></animate>
+                          <set
+                            fill="freeze"
+                            attributeName="opacity"
+                            begin="0.4s"
+                            to="0"
+                          ></set>
+                        </path>
+                        <path d="M5 5L19 5M5 19L19 19" opacity="0">
+                          <animate
+                            fill="freeze"
+                            attributeName="d"
+                            begin="0.2s"
+                            dur="0.4s"
+                            values="M5 5L19 5M5 19L19 19;M5 5L19 19M5 19L19 5"
+                          ></animate>
+                          <set
+                            fill="freeze"
+                            attributeName="opacity"
+                            begin="0.2s"
+                            to="1"
+                          ></set>
+                        </path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+
+                <li class="menu__item">
+                  <a href="index.html" class="menu__link">
+                    <span>Home</span>
+                  </a>
+                </li>
+
+                <li class="menu__item menu__dropdown">
+                  <a
+                    href="javascript:void(0)"
+                    class="menu__link"
+                    onclick="event.preventDefault()"
+                  >
+                    <span>Study Abroad</span>
+                    <i class="bx bx-chevron-right"></i>
+                  </a>
+                  <div
+                    class="submenu our-services-dropdown megamenu__text about-dropdown"
+                  >
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img
+                              src="images/study/australia.webp"
+                              alt="australia"
+                            />
+
+                            <span>Australia</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/uk.webp" alt="uk" />
+
+                            <span>U</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/canada.webp" alt="Canada" />
+
+                            <span>Canada</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/japan.webp" alt="Japan" />
+
+                            <span>Japan</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img
+                              src="images/study/germany.webp"
+                              alt="Germany"
+                            />
+
+                            <span>Germany</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img
+                              src="images/study/new-zealand.webp"
+                              alt=" new-zealand"
+                            />
+
+                            <span>New Zealand</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img
+                              src="images/study/s-korea.webp"
+                              alt="South Korea"
+                            />
+
+                            <span>South Korea</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/usa.webp" alt="USA" />
+
+                            <span>USA</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="menu__item menu__dropdown">
+                  <a
+                    href="javascript:void(0)"
+                    class="menu__link"
+                    onclick="event.preventDefault()"
+                  >
+                    <span>Test Preparation</span>
+                    <i class="bx bx-chevron-right"></i>
+                  </a>
+
+                  <div
+                    class="submenu our-services-dropdown megamenu__text about-dropdown"
+                  >
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img
+                              src="images/study/duolingo.png"
+                              alt="Career Counselling icon"
+                            />
+                            <span>Duolingo</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/gmat.png" alt="gmat" />
+
+                            <span>GMAT</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/ilets.png" alt="IELTS" />
+
+                            <span>IELTS</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="submenu__inner">
+                      <ul class="submenu__list">
+                        <li>
+                          <a href="">
+                            <img src="images/study/pte.png" alt="PTE" />
+
+                            <span>PTE</span>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </li>
+
+                <li class="menu__item">
+                  <a href="" class="menu__link">
+                    <span>University</span>
+                  </a>
+                </li>
+                <li class="menu__item menu__dropdown">
+                  <a href="https://educationasia.com" class="menu__link">
+                    <span>Services</span>
+                  </a>
+                </li>
+                <li class="menu__item menu__dropdown">
+                  <a href="" class="menu__link">
+                    <span>About Us</span>
+                  </a>
+                </li>
+
+                <li class="menu__item">
+                  <a href="" class="menu__link">
+                    <span>Contact Us</span>
+                  </a>
+                </li>
+
+                <li class="menu__item">
+                  <a href="" class="btn-custom"
+                    ><span>Eligibility Check</span></a
+                  >
+                </li>
+              </ul>
+            </div>
+          </section>
+        </nav>
+      </div>
+    </header>
+    <style>
+      .image-hero a {
+        display: block;
+        width: 100%;
+      }
+
+      .image-hero a img {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    </style>
+
+    <!--hero section for image banner starts here-->
+
+    <section class="hero video-hero">
+      <video
+        autoplay=""
+        muted=""
+        loop=""
+        playsinline=""
+        preload="auto"
+        class="svg-background banner-video"
+        poster=""
+        style="
+          background-image: url('images/zwmZqJXVW0Gwr0yUS9Zg.jpg');
+          background-size: cover;
+        "
+      >
+        <source src="media/video.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
+      <div class="container-fluid">
+        <div class="banner" style="text-align: center">
+          <div
+            class="banner-content"
+            style="align-items: center; text-align: center"
+          >
+            <h1>Find the world’s best universities and scholarships</h1>
+            <div
+              class="d-flex flex-row flex-nowrap align-items-center justify-content-center gap-2"
+            >
+              <p>Effortlessly with us!</p>
+              <a href="" target="_blank" class="btn-hero">
+                <span>Apply Now</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--hero section for video banner ends here-->
+
+    <!--upcoming event section starts here-->
+    <div
+      class="container-fluid"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="100"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="upcoming-events d-block">
+        <div class="row align-items-center g-3">
+          <div class="col-sm-2">
+            <h3 class="text-center fw-bold">
+              <p class="p-0 m-0 text-center">Recent</p>
+              EVENTS
+            </h3>
+          </div>
+          <div class="col-sm-4 d-flex flex-row column-gap-3">
+            <div class="date-box">
+              <span class="day">07</span>
+              <span class="month">Nov</span>
+            </div>
+            <div class="event-content">
+              <h4 class="limit-words-7">University of Greenwich ,UK</h4>
+              <a href="" class="event-btn">
+                <span class="text-decoration-underline">View Details</span>
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 d-flex flex-row column-gap-3">
+            <div class="date-box">
+              <span class="day">07</span>
+              <span class="month">Nov</span>
+            </div>
+            <div class="event-content">
+              <h4 class="limit-words-7">University of Greenwich ,UK</h4>
+              <a href="" class="event-btn">
+                <span class="text-decoration-underline">View Details</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="col-sm-2">
+            <a href="" class="view-btn m-0 p-0">
+              <span class="text-decoration-underline">More Events</span>
+              <svg
+                class="external-arrow"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                ></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--upcoming event section ends here-->
+
+    <div class="aboutus mt-5 py-3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-sm-6">
+            <img src="images/study/whychooseus.png" alt="">
+          </div>
+          <div class="col-sm-6">
+            <h2 class="footer-heading" style="color: var(--color-primary);">Why choose Us ?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quam excepturi? Tenetur, facere laudantium totam natus alias aliquam maxime minus ipsum expedita adipisci recusandae quo numquam, accusantium ipsa eum ratione?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime, quam excepturi? Tenetur, facere laudantium totam natus alias aliquam maxime minus ipsum expedita adipisci recusandae quo numquam, accusantium ipsa eum ratione?
+            </p>
+            <ul>
+              <li>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque eum tenetur natus non consectetur repudiandae libero iste possimus doloribus veritatis?
+              </li>
+              <li>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, exercitationem?
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--counsellor profile section-->
+    <div
+      class="counsellor-section overflow-hidden"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="300"
+      data-sal-easing="ease"
+    >
+      <div class="container">
+        <h3 class="text-center mt-2 mb-4">
+          Book Online Counseling with our Experts
+        </h3>
+        <div
+          class="counsellor-slider d-flex flex-row g-3 g-sm-3 justify-content-center slick-d"
+        >
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/dpi22DswNRnfEmTs7Pd1.JPG" alt="Rambhu Sah" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600">Rambhu Sah</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400">CEO</span>
+              </div>
+              <!--     -->
+              <a
+                href="https://educationasia.com/bookcounselling/rambhu-sah"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/JH7ryrDiZeVkeBkx5"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/k03U9ELngLj1GgS2h7g4.JPG" alt="Ritesh Acharya" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Ritesh Acharya</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Country Manager</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9802016700" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9802016700</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/ritesh-acharya"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/X3bHcXPZnnHFubAE7"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/Al2dCsHQf9HdRSTa698I.JPG" alt="Krishtina Udas" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Krishtina Udas</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Business Development Manager (BDM)</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9818344849" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9818344849</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/krishtina-udas"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/BnPw7goDkmqM7meFA"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/eG2bbyOKzr5wkSdIdIi7.JPG" alt="Sulaja Paudel" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Sulaja Paudel</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9768387127" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9768387127</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/sulaja-paudel"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/YwGkGX1oKEMAwduw7"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/EMggF7MAL7dkhit2hReQ.jpg" alt="Avastha Amatya" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Avastha Amatya</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9822799660" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9822799660</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/avastha-amatya"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/UeCrwo9tDv9aDfuJA"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img
+                src="images/NUMXoKezvDy3eyTiXtCP.jpg"
+                alt="Samikshya L Tamang"
+              />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Samikshya L Tamang</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9818551578" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9818551578</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/samikshya-l-tamang"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/JH7ryrDiZeVkeBkx5"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img
+                src="images/QWgZmGRezHhhMD3y3K50.JPG"
+                alt="Monica Kayastha"
+              />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Monica Kayastha</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9828695613" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9828695613</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/monica-kayastha"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/4oDXCcDLsAmbVyba7"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/ctoHMa5ZxguOBWcWaBPC.jpeg" alt="Simran Khadka" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Simran Khadka</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9823111704" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9823111704</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/simran-khadka"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/DwRimV1QqPFH4X9UA"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img src="images/HrKHUtT1xVrxlkpFfMsN.png" alt="Bhawana Prasai" />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Bhawana Prasai</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9709121904" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9709121904</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/bhawana-prasai"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/JH7ryrDiZeVkeBkx5"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="col-sm-3 col-12 d-flex flex-column justify-content-start align-items-center"
+          >
+            <div class="counsellor-profile">
+              <img
+                src="images/gJApXZyDcsqds82pntEC.jpg"
+                alt="Aarati Lamichhane"
+              />
+            </div>
+
+            <div class="counsellor-details">
+              <div class="mb-2 text-center">
+                <span style="font-size: 20px; font-weight: 600"
+                  >Aarati Lamichhane</span
+                ><br />
+                <span class="fst-italic" style="font-weight: 400"
+                  >Senior Counsellor</span
+                >
+              </div>
+              <!--     -->
+              <!--                    <a class="team-whatsapp-link my-2" href="https://wa.me/9803909205" target="_blank">-->
+              <!--                        <img  class="team-whatsapp-icon"" src="https://educationasia.com/assets/whatsapp.svg" alt="Whatsapp icon">-->
+              <!--                    	<span> 9803909205</span>-->
+              <!--                    </a>-->
+              <!---->
+              <a
+                href="https://educationasia.com/bookcounselling/aarati-lamichhane"
+                class="btn-custom mb-2 view-btn"
+                ><span>View profile</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="https://calendar.app.google/JH7ryrDiZeVkeBkx5"
+                class="btn-custom view-btn"
+                target="_blank"
+                ><span>Book appointment</span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--counsellor profile section-->
+
+    <!--Our services section starts-->
+
+    <div class="services p-40">
+      <div class="container">
+        <h2 class="text-center">Our Services</h2>
+        <div class="row g-sm-4 g-3">
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a href="https://educationasia.com/service/career-counselling">
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/dAySQF5ha5xzPE6Iaf2x.png"
+                    alt="Career Counselling"
+                  />
+                </div>
+                <h4>Career Counselling</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a
+              href="https://educationasia.com/service/country-and-university-selection"
+            >
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/vDqfJK5TEUFjzSBOb1Hb.png"
+                    alt="Country & University selection"
+                  />
+                </div>
+                <h4>Country & University selection</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a
+              href="https://educationasia.com/service/scholarship-and-application-process"
+            >
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/yiuGKpqYehvadaVitpCi.png"
+                    alt="Scholarship & Application Process"
+                  />
+                </div>
+                <h4>Scholarship & Application Process</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a href="https://educationasia.com/service/test-preparation">
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/UhhjsscqpKolWxyLjljA.png"
+                    alt="Test Preparation"
+                  />
+                </div>
+                <h4>Test Preparation</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a
+              href="https://educationasia.com/service/financial-loan-and-banking-assistance"
+            >
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/sHqyrimQFO63iAq6RKk4.png"
+                    alt="Financial, Loan, and Banking Assistance"
+                  />
+                </div>
+                <h4>Financial, Loan, and Banking Assistance</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a
+              href="https://educationasia.com/service/interview-and-visa-processing"
+            >
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/rxnrn3dFAPZbuao57szr.png"
+                    alt="Interview & Visa Processing"
+                  />
+                </div>
+                <h4>Interview & Visa Processing</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a href="https://educationasia.com/service/accommodation-support">
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/QSNbdtBOAU8gGWpQ4YPZ.png"
+                    alt="Accommodation Support"
+                  />
+                </div>
+                <h4>Accommodation Support</h4>
+              </div>
+            </a>
+          </div>
+          <div
+            class="col-sm-6 col-md-3 col-12"
+            data-sal="slide-up"
+            data-sal-duration="500"
+            data-sal-delay="100"
+            data-sal-easing="ease-in-out"
+          >
+            <a href="https://educationasia.com/service/pre-departure-support">
+              <div class="service-card equal_height">
+                <div class="service-image">
+                  <img
+                    src="images/UB6oe0gYwEc3YPIW4Zci.png"
+                    alt="Pre-Departure Support"
+                  />
+                </div>
+                <h4>Pre-Departure Support</h4>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Our services section ends-->
+    <!--offer section starts here-->
+
+    <div
+      class="offers p-60"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="100"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="container">
+        <h2 class="text-center" style="margin-bottom: 10px">
+          Seasonal Offers & Discounts -
+          <span class="highlights">Grab Now!</span>
+        </h2>
+
+        <!-- <p class="text-center" style="margin-bottom: 10px;">Seasonal Offers & Discounts - <span style="color: #0C4DA2;">Grab
+              Now !</span></p>-->
+
+        <div class="row g-3 g-sm-5 mb-4 mt-sm-4 mt-20 justify-content-center">
+          <div class="col-12 col-sm-4">
+            <div class="offer-card equal_height">
+              <img
+                src="images/vug0UbY6VP9sa7qwWzN5.png"
+                alt="Offer Icon"
+                class="offer-svg"
+              />
+
+              <div class="text-center">
+                <h3 class="mb-4">Big saving!</h3>
+                <p>30% off in top ranked US universities application fees</p>
+              </div>
+              <a
+                href="https://educationasia.com/seasonaloffer/big-saving"
+                class="offer-btn"
+                target="_blank"
+              >
+                <span> APPLY NOW! </span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="offer-card equal_height">
+              <img
+                src="images/KG4XWrI0OGtscVO8Pts2.png"
+                alt="Offer Icon"
+                class="offer-svg"
+              />
+
+              <div class="text-center">
+                <h3 class="mb-4">Exclusive offer!</h3>
+                <p>
+                  50% off on class Fees<br /><strong>IELTS, PTE & SAT</strong>
+                </p>
+              </div>
+              <a
+                href="https://educationasia.com/seasonaloffer/exclusive-offer-2"
+                class="offer-btn"
+                target="_blank"
+              >
+                <span> Register Now! </span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="col-12 col-sm-4">
+            <div class="offer-card equal_height">
+              <img
+                src="images/kQNgtpBtRaDlRDwWuY6W.png"
+                alt="Offer Icon"
+                class="offer-svg"
+              />
+
+              <div class="text-center">
+                <h3 class="mb-4">Exclusive offer!</h3>
+                <p>
+                  50% off on exam fees<br /><strong
+                    >IELTS, PTE & DUOLINGO�</strong
+                  >
+                </p>
+              </div>
+              <a
+                href="https://educationasia.com/seasonaloffer/exclusive-offer"
+                class="offer-btn"
+                target="_blank"
+              >
+                <span> Register Now! </span>
+                <svg
+                  class="external-arrow"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--offer section ends here-->
+ 
+
+    <!--study destination section starts-->
+
+    <div
+      class="study-destination overflow-hidden p-40"
+      data-sal="slide-up"
+      data-sal-duration="500"
+      data-sal-delay="100"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="container">
+        <h2 class="text-center">Explore Top Study Destinations</h2>
+        <div class="country-slider row slick-e d-flex flex-row">
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/usa">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/OcxRLOxWNnTEhOHKAL0m.png" alt="USA" />
+                </div>
+                <h4 class="country-name">USA</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/uk">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/SKP4kc62vVjKeE7D08VZ.png" alt="UK" />
+                </div>
+                <h4 class="country-name">UK</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/Australia">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/LRMw0h5XvfbKqZcGd9Uj.png" alt="Australia" />
+                </div>
+                <h4 class="country-name">Australia</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/new-zealand">
+              <div class="country-box">
+                <div class="country-image">
+                  <img
+                    src="images/HKgns6GuM58bctAZYZd2.png"
+                    alt="New Zealand"
+                  />
+                </div>
+                <h4 class="country-name">New Zealand</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/canada">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/GKKCZp3fDqs4rG1NcNMa.png" alt="Canada" />
+                </div>
+                <h4 class="country-name">Canada</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/netherlands">
+              <div class="country-box">
+                <div class="country-image">
+                  <img
+                    src="images/pak1nNolU6gctLPHJhB2.png"
+                    alt="Netherlands"
+                  />
+                </div>
+                <h4 class="country-name">Netherlands</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/dubai">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/G5VCsrrFgjX6G0YZIACX.png" alt="Dubai" />
+                </div>
+                <h4 class="country-name">Dubai</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/denmark">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/LfL48zpd7Urv9Xouqhb4.png" alt="Denmark" />
+                </div>
+                <h4 class="country-name">Denmark</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/germany">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/Ej9Sdll3I7GOy9CcVXlI.png" alt="Germany" />
+                </div>
+                <h4 class="country-name">Germany</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 py-3">
+            <a href="https://educationasia.com/single-country/france">
+              <div class="country-box">
+                <div class="country-image">
+                  <img src="images/SoQRsBwRwOQXp5ETPb0V.png" alt="France" />
+                </div>
+                <h4 class="country-name">France</h4>
+                <div class="radial-shadow"></div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center my-4">
+          <a href="https://educationasia.com/workinprogress" class="btn-custom">
+            <span>Apply Now</span>
+            <svg
+              class="external-arrow"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+            >
+              <path
+                fill="currentColor"
+                d="M17.6 18L8 8.4V17H6V5h12v2H9.4l9.6 9.6z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!--study destination section ends-->
+
+    <!--test-preparation classes section starts-->
+    <div
+      class="test-preparation p-40"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="300"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="container">
+        <h2 class="text-center">Expert-led Test Prep</h2>
+        <div class="row justify-content-center g-0">
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/ielts">
+                <img
+                  class="height-test"
+                  src="images/MQ7sW2sHCKerJhrx8TYj.png"
+                  alt="IELTS"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/sat">
+                <img
+                  class="height-test"
+                  src="images/8BE0m7GiSSmb4lOcvURb.png"
+                  alt="SAT"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/pte">
+                <img
+                  class="height-test"
+                  src="images/SR6eVMy5xUFaiXgleaQd.png"
+                  alt="PTE"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/gre">
+                <img
+                  class="height-test"
+                  src="images/29VSQ0fEOZy4BijG2MIN.png"
+                  alt="GRE"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/gmat">
+                <img
+                  class="height-test"
+                  src="images/uX4D12bOGxvsAthv9vcQ.png"
+                  alt="GMAT"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 col-md-2 col-4">
+            <div class="test-class-list">
+              <a href="https://educationasia.com/test-preparation/duolingo">
+                <img
+                  class="height-test"
+                  src="images/8tMgxdJmHi2pLbu0Q6Wr.png"
+                  alt="Duolingo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--test-preparation classes section ends-->
+
+    <!--testimonial section starts-->
+    <div
+      class="student-testimonial overflow-hidden p-40 pb-5"
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="100"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="container">
+        <div
+          class="d-flex flex-row gap-0 justify-content-center align-items-center mb-3"
+        >
+          <img
+            class="d-none d-sm-block d-md-block"
+            src="images/testimonial-cap.svg"
+            alt="Cap Image"
+          />
+          <h2 class="text-center m-0">
+            Success Stories: The voices of our students
+          </h2>
+        </div>
+
+        <div
+          class="row flex-wrap justify-content-center slick-c country-slider"
+        >
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/_b8P1bIsMGQ/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="_b8P1bIsMGQ"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">Sanjaya Gautam!</p>
+                  <p class="university-name">University of Western Australia</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/B6eSECvVeHs/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="B6eSECvVeHs"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">Bhumika Gurung</p>
+                  <p class="university-name">
+                    Wentworth Institute of Higher Education
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/dLBzVccF66M/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="dLBzVccF66M"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">Sishir Chapagain</p>
+                  <p class="university-name">Youngstown State University</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/jUHwixy5w_4/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="jUHwixy5w_4"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">Deepesh Sunuwar</p>
+                  <p class="university-name">NEST Academy of Management</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/qI7R_5SLeF0/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="qI7R_5SLeF0"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">MOHIT KUMAR DAHAL</p>
+                  <p class="university-name">WICHITA STATE UNIVERSITY</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/VQqT_L0emo8/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="VQqT_L0emo8"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">PRASHANNA KHADKHA</p>
+                  <p class="university-name">WICHITA STATE UNIVERSITY</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/SO21jwSuqXE/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="SO21jwSuqXE"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">SAMRAT GURUNG</p>
+                  <p class="university-name">CHARLES STURT UNIVERSITY</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/knS1VB7ZYQ4/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="knS1VB7ZYQ4"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">SATYA PRAKASH SINGH</p>
+                  <p class="university-name">UNIVERSITY OF EAST LONDON</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/8XJzmS4MCxQ/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="8XJzmS4MCxQ"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">KISHOR SHRESTHA</p>
+                  <p class="university-name">
+                    WENTWORTH INSTITUTE OF HIGHER EDUCATION
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 col-12 px-sm-3 py-sm-0 mx-sm-3 p-2 m-2">
+            <div class="student-card">
+              <img
+                style="width: 100%; height: 100%; object-fit: cover"
+                src=" https://img.youtube.com/vi/hip56vexcKI/hqdefault.jpg "
+                alt="Testimonial Video"
+              />
+
+              <img
+                class="play-icon"
+                src="images/youtube.svg"
+                alt="Play Icon"
+                data-video-id="hip56vexcKI"
+                data-type="youtube"
+              />
+              <div class="student-name-tag">
+                <div class="name-tag">
+                  <p class="student-name limit-words-5">NAYA SHRESTHA</p>
+                  <p class="university-name">UNIVERSITY OF WESTERN AUSTRALIA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- youtube play modal starts here -->
+    <div class="video-modal">
+      <div class="video-box">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+          <button class="close-btn"><i class="fa-solid fa-xmark"></i></button>
+          <iframe
+            id="yt-video"
+            width="100%"
+            height="100%"
+            allow="autoplay; fullscreen"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- youtube play modal ends here-->
+
+    <!--Partner listing section-------------------->
+    <div class="partner-lists overflow-hidden pt-40 px-sm-5 px-2 px-md-4">
+      <h3
+        class="text-center"
+        data-sal="fade"
+        data-sal-duration="500"
+        data-sal-delay="100"
+        data-sal-easing="ease-in-out"
+      >
+        Trusted by Leading Institutions & Partners Globally
+      </h3>
+      <div
+        class="row g-sm-4 g-3 flex-wrap justify-content-center slick-f"
+        data-sal="fade"
+        data-sal-duration="500"
+        data-sal-delay="100"
+        data-sal-easing="ease-in-out"
+      >
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/1yexpiouJcplL44e0Q3s.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/wH5EXH07MyYJqMiDnHyu.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/WUmtokRB1D7jnkbA3fdQ.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/Tj1aIqhJAqYfhtWYSOX0.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/ALMSBtU1XyN89Xb7WL3o.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/9YVMKXkyyZMwe2qP1L9E.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/B3Ng45VIkbgvLc9yn1VL.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/AEFjCH7ueWj1e0Z9z0CC.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/3ed6NRFyjObvfk9mmKex.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-3 col-md-2 p-sm-3 p-2">
+          <div class="partner-test-class-list">
+            <a href="" target="_blank">
+              <img src="images/partner-logo.png" alt="Partner Logo" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Partner listing section ends-------------------->
+
+    <!-- Footer section -->
+    <footer
+      data-sal="fade"
+      data-sal-duration="500"
+      data-sal-delay="100"
+      data-sal-easing="ease-in-out"
+    >
+      <div class="container-fluid">
+        <div class="row g-sm-5 g-3 footer-content">
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-sm-0 mb-2">
+            <a href="index.html">
+              <img src="images/logo.png" alt="" style="width: 200px" />
+            </a>
+            <p class="pt-4" style="color: #e6e4e4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+              provident atque beatae aperiam quos, ipsam nobis nisi eligendi
+              laudantium reiciendis
+            </p>
+            <ul class="social-links d-sm-block">
+              <li>
+                <a href="" target="_blank" class="social-item"
+                  ><img src="images/footer-facebook.svg" alt="Facebook icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" class="social-item" target="_blank">
+                  <img src="images/footer-messenger.svg" alt="Messenger icon" />
+                </a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="social-item"
+                  ><img src="images/footer-instagram.svg" alt="Instagram icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="social-item"
+                  ><img src="images/footer-linkedin.svg" alt="Linkedin icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="social-item"
+                  ><img src="images/footer-tiktok.svg" alt="Tiktok icon"
+                /></a>
+              </li>
+              <li>
+                <a href="" target="_blank" class="social-item"
+                  ><img src="images/footer-youtube.svg" alt="Youtube icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-sm-5 col-md-5 col-xl-3 mb-sm-0 mb-2">
+            <div class="useful-link-container">
+              <ul class="footer-list">
+                <h3 class="footer-heading">Quick Links</h3>
+
+                <li>
+                  <a href="" target="_blank">About KIC</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Services</a>
+                </li>
+
+                <li>
+                  <a href="" target="_blank">Universities</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Gallery</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Interview</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">FAQ's</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-sm-0 mb-2">
+            <div class="useful-link-container">
+              <ul class="footer-list">
+                <h3 class="footer-heading">Useful Documents</h3>
+
+                <li>
+                  <a href="" target="_blank">Experience Letter</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Recommendation Letter</a>
+                </li>
+
+                <li>
+                  <a href="" target="_blank">Sample Documents</a>
+                </li>
+                <li>
+                  <a href="" target="_blank">Bio-Data</a>
+                </li>
+                <li>
+                  <a href="" target="_blank"
+                    >Affidavit / Sponsorship Certificate</a
+                  >
+                </li>
+                <li>
+                  <a href="" target="_blank"
+                    >10 easy steps to follow to study abroad</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-xl-3 mb-sm-0 mb-2">
+            <h3 class="footer-heading">Contact Us</h3>
+            <div class="footer-col">
+              <ul class="footer-list">
+                <li>
+                  <span class="ri--phone-fill"></span>
+                  <a href="tel:03-5567889">03-5567889</a>
+
+                  <span>,</span>
+                  <a href="tel:9809876543">9809876543</a>
+                </li>
+                <li>
+                  <span class="ic--round-mail"></span>
+                  <a href="mailto:info@kiceducation.com"
+                    >info@kiceducation.com</a
+                  >
+                </li>
+                <li>
+                  <span class="ic--baseline-location-on"></span>
+                  <a href="" target="_blank">Gaushala, Kathmandu, Nepal.</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-line" />
+        <div class="copyright">
+          <div class="copy-text">
+            <span>© 2025 - All Rights reserved. KICEducation</span>
+          </div>
+          <div class="d-flex gap-2">
+            <a href="" target="_blank">Terms & Conditions</a>
+            <span class="text-white">|</span>
+            <a href="" target="_blank">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Link to external JS files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/lozad.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <script src="js/sal.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/sal.js"></script>
+    <!-- Toastr Notifications -->
+
+    <script src="js/toastr.min.js"></script>
+
+    <script src="js/script.js"></script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API = Tawk_API || {},
+        Tawk_LoadStart = new Date();
+      (function () {
+        var s1 = document.createElement("script"),
+          s0 = document.getElementsByTagName("script")[0];
+        s1.async = true;
+        s1.src = "https://embed.tawk.to/6874e6b55d2f93190ecc70ff/1j04aae0h";
+        s1.charset = "UTF-8";
+        s1.setAttribute("crossorigin", "*");
+        s0.parentNode.insertBefore(s1, s0);
+      })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <script>
+      $(document).ready(function () {
+        // For student testimonials and partner videos
+        $(".play-icon").on("click", function (e) {
+          e.preventDefault();
+          const videoId = $(this).data("video-id");
+          $("#yt-video").attr(
+            "src",
+            `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`
+          );
+          $(".video-modal").fadeIn();
+        });
+
+        $(".close-btn, .modal-overlay").on("click", function () {
+          $(".video-modal").fadeOut();
+          $("#yt-video").attr("src", ""); // Stop the video when closing
+        });
+      });
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        function updateBannerImages() {
+          const images = document.querySelectorAll("img.hero-image");
+          images.forEach((img) => {
+            const mobileSrc = img.getAttribute("data-mobile-src");
+            const desktopSrc = img.getAttribute("data-desktop-src");
+            if (window.innerWidth <= 767 && mobileSrc) {
+              img.src = mobileSrc;
+            } else {
+              img.src = desktopSrc;
+            }
+          });
+        }
+
+        updateBannerImages();
+        // Optional: also update on window resize (debounced if you want)
+        window.addEventListener("resize", function () {
+          updateBannerImages();
+        });
+      });
+    </script>
+  </body>
+</html>
