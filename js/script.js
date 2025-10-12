@@ -12,9 +12,9 @@ $(document).ready(function () {
 
     // Initialize Slick slider
     $('.slick-a').slick({
-        dots: false,
+        dots: true,
         infinite: true,
-        arrows: true,
+        arrows: false,
         speed: 500,
         slidesToShow: 1,
         slidesToScroll: 1,
