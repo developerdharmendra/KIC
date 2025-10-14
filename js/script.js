@@ -70,9 +70,9 @@ $(document).ready(function () {
                 ]
             });
 $('.slick-d').slick({
-    dots: false,
+    dots: true,
     infinite: true,
-    arrows: true,
+    arrows: false,
     speed: 600,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -497,15 +497,15 @@ $(document).on("keydown", "#chat-input", function (e) {
 
 
 // Check if current page is NOT homepage
-if (window.location.pathname !== '/' && window.location.pathname !== '/index.html' && window.pathname !== '/educationasia/public/' && window.pathname !== '/educationasia/public/index.php') {
+if (window.location.pathname !== '/' && window.location.pathname !== '/index.html' && window.pathname !== '' && window.pathname !== '') {
   document.querySelectorAll('a').forEach(link => {
-    link.setAttribute('target', '_blank');
+    link.setAttribute('target', '');
   });
 }
 //js for no blank
 document.querySelectorAll('a').forEach(link => {
   if (!link.hasAttribute('data-no-blank')) {
-    link.setAttribute('target', '_blank');
+    link.setAttribute('target', '');
   } else {
     link.removeAttribute('target');
   }
@@ -544,7 +544,7 @@ document.querySelectorAll('a').forEach(link => {
       });
     }
   } else {
-    link.setAttribute('target', '_blank');
+    link.setAttribute('target', '');
   }
 });
 

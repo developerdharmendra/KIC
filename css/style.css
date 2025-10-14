@@ -1453,6 +1453,7 @@ header {
       padding-right: 20px;
       padding: 10px 0px;
       width:100%;
+      text-transform: capitalize;
       &:last-child {
         padding-right: 0;
       }
@@ -1460,6 +1461,7 @@ header {
       &:hover {
         > .menu__link {
           color: var(--color-primary);
+          font-weight: 600;
         }
         .darkmode & > .menu__link {
           color: var(--color);
@@ -1497,10 +1499,9 @@ header {
         align-items: center;
         justify-content: center;
         cursor: pointer;
-        font-size: 16px;
-        font-weight: 400;
-        color: #000;
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: 600;
+        color: #0e0e0e;
         transition: all 0.25s ease;
 
         @media (max-width: 767px) {
@@ -2390,7 +2391,7 @@ a:hover .link_underline {
 
 .menu__inner {
   display: flex;
-  gap: 20px;
+  gap: 18px;
   align-items: center;
       @media (min-width:1280px) and (max-width:1320px) {
         gap: 14px ;
@@ -6653,6 +6654,9 @@ background: var(--color-darkprimary);
           margin-top: 50px;
         }
 }
+.text-custom{
+color: var(--color-primary);
+}
 .play-overlay{
           position: absolute;
           top: 0;
@@ -6805,3 +6809,94 @@ background: var(--color-darkprimary);
     transform: rotate(45deg);
 }
 
+
+/* service details page  */
+.service-details{
+  list-style: none;
+}
+.service-details li{
+  padding: 6px 0;
+}
+.service-details li a {
+  transition: all 0.3s ease;
+}
+.service-details li:hover a {
+  color: var(--color-secondary);
+  transform: translateX(5px);
+  transition: all 0.3s ease;
+}
+
+/* university  */
+.university{
+ 
+        margin-top: 70px;
+        background-image: url('../images/banner.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        @media(max-width: 767px){
+          margin-top: 50px;
+        }
+}
+.bg-lblue {
+  background-color: var(--color-primary) !important;
+}
+
+.shop-items{
+	margin:5px auto;
+	padding:0px 20px;
+}
+.shop-items .item {
+	position: relative;
+	max-width: 360px;
+	margin: 15px auto;
+	padding: 5px;
+	text-align: center;
+	border-radius: 4px;
+	overflow: hidden;
+	border:2px solid #eee;
+}
+.shop-items .item:hover{	
+	border:2px solid var(--color-primary);
+}
+.shop-items .item img {
+	width: 100%;
+	max-width: 300px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+	border-radius: 3px;
+}
+
+.shop-items .item  .ecom {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 100%;
+	padding-bottom:10px;
+	padding-top: 10px;
+	-webkit-transition: all 0.35s ease-in;
+	-moz-transition: all 0.35s ease-in;
+	-ms-transition: all 0.35s ease-in;
+	-o-transition: all 0.35s ease-in;
+	transition: all 0.35s ease-in;
+}
+.shop-items .item:hover  .ecom { 
+	margin-top: -50px; 
+}
+.shop-items .item  .ecom  a.btn{
+	border:none;
+	color:#fff;
+  width: 100%;
+	background:transparent;
+	-webkit-transition: all 0.35s ease-in;
+	-moz-transition: all 0.35s ease-in;
+	-ms-transition: all 0.35s ease-in;
+	-o-transition: all 0.35s ease-in;
+	transition: all 0.35s ease-in;
+}
+.shop-items .item  .ecom  a.btn:hover{
+	color:#777;
+}   
