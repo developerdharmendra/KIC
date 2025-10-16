@@ -1851,11 +1851,11 @@ background: var(--mega-gradient, linear-gradient(90deg, #ffffff -9.72%, #edf8ff 
 }
 
 .logo {
-    width: 120px;
+    width: 150px;
 }
 @media (max-width: 767px) {
   .logo {
-    width: 120px;
+    width: 140px;
   }
   
 }
@@ -3105,7 +3105,7 @@ footer {
   position: relative;
   z-index: 1;
   /* background: url('../images/000.svg'); */
-  background-color: var(--color-primary);
+  /* background-color: var(--color-primary); */
   @media(max-width:767px) {
     background-position: center center;
     padding: 10px 0px 5px 0px;
@@ -3193,14 +3193,14 @@ footer .container {
 }
 .copy-text span , .copy-text a {
   font-size: 14px;
-  color: white;
+  color: #000;
   transition: all 0.3s ease-in-out;
 }
 .copy-text a:hover {
   text-decoration: underline;
 }
 footer h3 {
-  color: white;
+  color: var(--color-darkprimary);
   font-weight: 450;
   font-size: 24px;
 }
@@ -3267,10 +3267,17 @@ footer h3 {
 /*.footer-list {*/
 /*  margin-top: 13px;*/
 /*}*/
+footer p{
+  color: #1e1e1e;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.6;
+  text-align: justify;
+}
 .footer-line {
   padding: 0;
   margin: 45px 0px 0px 0px;
-  color: white;
+  color: var(--color-darkprimary);
   max-width: 100%;
 
 }
@@ -3291,7 +3298,7 @@ footer h3 {
   margin-bottom: 0;
 }
 .footer-list li span {
-  color: white;
+  color: var(--color-primary);
 }
 .footer-list li a {
   font-size: 15px;
@@ -3299,8 +3306,8 @@ footer h3 {
   flex-direction: row;
   gap: 7px;
   align-items: center;
-  color: white;
-  font-weight: 300;
+  color: #0e0e0e;
+  font-weight: 400;
   transition: all 0.3s ease-in-out;
   font-family: 'Inter';
 }
@@ -3308,7 +3315,7 @@ footer h3 {
  text-wrap: nowrap;
 }
 .footer-list li a:hover {
-  color: #3efefe;
+  color: var(--color-darkprimary);
 transform: translateX(-3px);
 
   /* background: var(--blue-red-linear, linear-gradient(103deg, #0961D4 0.56%, #FF666C 104.69%));
@@ -3331,9 +3338,14 @@ footer a {
   flex-direction: row;
   gap: 7px;
   align-items: center;
-  color: white;
+  color: #0e0e0e;
   font-weight: 320;
   transition: all 0.3s ease;
+}
+footer a:hover {
+  color: var(--color-darkprimary);
+  cursor: pointer;
+  transform: translateX(-3px);
 }
 footer .offices-btn {
     transition: all 0.3s ease;
